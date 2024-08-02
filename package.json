@@ -1,0 +1,20 @@
+{
+  "name": "sesbotu",
+  "version": "1.0.0",
+  "description": "Birden fazla botun ses kanalına bağlandığı bir proje.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "@discordjs/voice": "^0.14.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "author": "hasbutcu",
+  "license": "MIT"
+}
